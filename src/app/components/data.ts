@@ -1,0 +1,151 @@
+export type Product = {
+  id: number;
+  name: string;
+  price: number;
+  originalPrice?: number;
+  rating: number;
+  reviews: number;
+  image: string;
+  category: string;
+  badge?: string;
+  description: string;
+};
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 1,
+    name: "Nike Air Force 1 Hoodie Set",
+    price: 89.99,
+    originalPrice: 120.0,
+    rating: 4.8,
+    reviews: 342,
+    image: "https://images.unsplash.com/photo-1576188973526-0e5d7047b0cf?w=600&h=700&fit=crop&auto=format",
+    category: "Fashion",
+    badge: "Sale",
+    description: "Premium hoodie set with matching sneakers for the perfect street style look.",
+  },
+  {
+    id: 2,
+    name: "Curated Accessories Bundle",
+    price: 149.0,
+    rating: 4.6,
+    reviews: 218,
+    image: "https://images.unsplash.com/photo-1511556820780-d912e42b4980?w=600&h=700&fit=crop&auto=format",
+    category: "Fashion",
+    badge: "New",
+    description: "Bag, sneakers, and sunglasses — everything you need for a polished look.",
+  },
+  {
+    id: 3,
+    name: "Men's Flat Lay Collection",
+    price: 210.0,
+    originalPrice: 260.0,
+    rating: 4.7,
+    reviews: 95,
+    image: "https://images.unsplash.com/photo-1761896902115-49793a359daf?w=600&h=700&fit=crop&auto=format",
+    category: "Fashion",
+    description: "Complete men's wardrobe essentials for a refined, contemporary look.",
+  },
+  {
+    id: 4,
+    name: "White Knit Sweater",
+    price: 64.0,
+    rating: 4.9,
+    reviews: 511,
+    image: "https://images.unsplash.com/photo-1621198059871-0d5f9b449233?w=600&h=700&fit=crop&auto=format",
+    category: "Fashion",
+    badge: "Bestseller",
+    description: "Cozy, breathable knit sweater perfect for layering in any season.",
+  },
+  {
+    id: 5,
+    name: "Electronics Desk Setup",
+    price: 499.0,
+    originalPrice: 649.0,
+    rating: 4.5,
+    reviews: 173,
+    image: "https://images.unsplash.com/photo-1615655406736-b37c4fabf923?w=600&h=700&fit=crop&auto=format",
+    category: "Electronics",
+    badge: "Sale",
+    description: "Complete desk setup with mic, monitors, and all the peripherals you need.",
+  },
+  {
+    id: 6,
+    name: "Sony Wireless Headphones",
+    price: 129.0,
+    rating: 4.8,
+    reviews: 892,
+    image: "https://images.unsplash.com/photo-1515940175183-6798529cb860?w=600&h=700&fit=crop&auto=format",
+    category: "Electronics",
+    badge: "New",
+    description: "Premium over-ear wireless headphones with active noise cancellation.",
+  },
+  {
+    id: 7,
+    name: "Modern Living Room Set",
+    price: 1299.0,
+    originalPrice: 1599.0,
+    rating: 4.6,
+    reviews: 64,
+    image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=600&h=700&fit=crop&auto=format",
+    category: "Home",
+    badge: "Sale",
+    description: "Complete living room furniture set with sofa, coffee table, and decor.",
+  },
+  {
+    id: 8,
+    name: "Curated Shelf Display",
+    price: 340.0,
+    rating: 4.4,
+    reviews: 38,
+    image: "https://images.unsplash.com/photo-1617806265182-7b3f847f0b75?w=600&h=700&fit=crop&auto=format",
+    category: "Home",
+    description: "White wooden shelf with handpicked decor items to elevate any space.",
+  },
+  {
+    id: 9,
+    name: "Skincare Essentials Kit",
+    price: 78.0,
+    rating: 4.9,
+    reviews: 1204,
+    image: "https://images.unsplash.com/photo-1580870069867-74c57ee1bb07?w=600&h=700&fit=crop&auto=format",
+    category: "Beauty",
+    badge: "Bestseller",
+    description: "A curated set of cleanser, toner, and moisturizer for radiant skin.",
+  },
+  {
+    id: 10,
+    name: "Pro Makeup Brush Set",
+    price: 45.0,
+    originalPrice: 65.0,
+    rating: 4.7,
+    reviews: 676,
+    image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&h=700&fit=crop&auto=format",
+    category: "Beauty",
+    badge: "Sale",
+    description: "Professional-grade brushes for flawless foundation, blush, and contouring.",
+  },
+  {
+    id: 11,
+    name: "Seasonal Flat Lay Bundle",
+    price: 175.0,
+    rating: 4.5,
+    reviews: 149,
+    image: "https://images.unsplash.com/photo-1632469188022-b5db09a70fbc?w=600&h=700&fit=crop&auto=format",
+    category: "Fashion",
+    description: "Shoes, hat, and sweater — a complete seasonal outfit for every occasion.",
+  },
+  {
+    id: 12,
+    name: "Wireless Gaming Mouse",
+    price: 69.99,
+    rating: 4.6,
+    reviews: 445,
+    image: "https://images.unsplash.com/photo-1593344484962-796055d4a3a4?w=600&h=700&fit=crop&auto=format",
+    category: "Electronics",
+    badge: "New",
+    description: "Ergonomic wireless gaming mouse with adjustable DPI and 70-hour battery.",
+  },
+];
+
+export const CATEGORIES = ["All", "Fashion", "Electronics", "Home", "Beauty"];
