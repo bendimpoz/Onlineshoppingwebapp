@@ -234,8 +234,6 @@ The Online Shopping Web Application successfully demonstrates modern UI/UX desig
 
 # 16. Figma Project Link
 
-> Insert your Figma project link here.
+(https://www.figma.com/design/yam5iXN3RL0KNVRqeS3pR6/Online-Shopping-Web-App)
 
-# 17. GitHub Repository Link
 
-> Insert your GitHub repository link here.
